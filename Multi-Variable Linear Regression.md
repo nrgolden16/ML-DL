@@ -14,4 +14,6 @@
 
   **_Hypothesis_**
 
- 
+<img src="image/가설.PNG"  width="350" height="45">
+
+
