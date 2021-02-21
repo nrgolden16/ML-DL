@@ -19,3 +19,31 @@
 **_Cost Function_**
   
 <img src="image/cost_func.png"  width="320" height="32">
+
+변수가 많아지면 식을 다 쓰기 어려워지게 되므로 행렬을 사용하여 연산  
+이때, weight와 feature값들의 점곱(스칼라 곱셉)이 이루어짐 (행렬의 곱셈)
+
+__H(X) = XW__
+
+<img src="image/행렬표현.png"  width="420" height="110">  
+실제 데이터 X 가중치 (weight) = 우리의 가설 H(x)  
+<br/>
+
+* 주요 용어  
+
+|변수 기호 | 변수 이름 |
+|---|---|
+| X | 입력변수, feature, 독립변수, 설명변수, input |
+| Y | 출력변수, label, 반응변수, 종속변수, output |
+
+관측치 = OBS(Observation) = 데이터 = 인스턴스  
+
+<img src="image/batch.PNG"  width="400" height="150">
+
+| 용어 | 의미 |
+|:------------------:|-----------------------------|
+|1 epoch| 전체 데이터 셋을 한번에 학습 , 전체 데이터 셋에 대해 한번 학습을 완료한 상태 |
+|iteration| 메모리의 한계와 속도 저하 때문에 대부분의 경우에는 한번의 epoch에서 모든 데이터 셋을 학습시키기 어려움. 따라서, 데이터를 나누어서 학습시키게 되는데 이 때 몇 번 나눠주는가를 iteration이라고 함 |
+|batch size| 각 iteration마다 주는 데이터 사이즈 |
+|mini-batch|데이터 일부, 데이터 모음, 데이터 셋을 batch size로 쪼개서 학습 |
+|Full-batch| 데이터 전체 |
