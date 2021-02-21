@@ -15,6 +15,6 @@
   **_Hypothesis_**
 <img src="image/가설.PNG"  width="320" height="32">
 
-  **_Cost Function_**
+   **_Cost Function_**
   
-<img src="image/cost_func.PNG"  width="320" height="32">
+<img src="image/cost_func.png"  width="320" height="32">
