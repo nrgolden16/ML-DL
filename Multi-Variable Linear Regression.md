@@ -12,9 +12,9 @@
   - 머신러닝의 목표는 손실함수를 최소로 하는 W값을 찾아내는 것이라 할 수 있음
 * **다변량 선형 회귀분석의 가설**
 
-  **_Hypothesis_**
+**_Hypothesis_**
 <img src="image/가설.PNG"  width="320" height="32">
-
+   
    **_Cost Function_**
   
 <img src="image/cost_func.png"  width="320" height="32">
